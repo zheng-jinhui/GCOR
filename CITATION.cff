@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite this dataset using the metadata in this file."
+title: "Global Crop Observation Repository (GCOR)"
+abstract: "A versioned compilation of field-based crop observations covering crop yield, methane and nitrous-oxide emissions, fertilizer inputs, and reported measurement methods. The dataset supports crop-model parameterization and validation for the study “Agricultural burdens emerge as crop climates depart from historical extremes”."
+type: dataset
+version: "1.0.0"
+date-released: "2026-09-10"
+license: CC-BY-4.0
+keywords:
+  - crop observations
+  - crop yield
+  - methane emissions
+  - nitrous oxide emissions
+  - fertilizer inputs
+  - crop modelling
+  - agricultural greenhouse gases
+authors:
+  - family-names: Zheng
+    given-names: Jinhui
+  - family-names: Yu
+    given-names: Le
+  - family-names: Zhang
+    given-names: Xinan
+  - family-names: Harrison
+    given-names: Matthew Tom
+  - family-names: Smith
+    given-names: Pete
+  - family-names: Liu
+    given-names: Ke
+  - family-names: Kang
+    given-names: Min
+  - family-names: Wu
+    given-names: Hanyi
+  - family-names: Xiao
+    given-names: Liujun
