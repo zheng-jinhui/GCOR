@@ -4,6 +4,23 @@ GCOR is a public, machine-readable compilation of field-based crop observations 
 
 Version 1.0.0 contains 10,791 observation records associated with 933 source-publication titles and 42 retained location labels. Each row represents an observation or experimental-treatment record. The dataset contains crop yield, CH4 and N2O emissions expressed as CO2-equivalent values, fertilizer inputs, measurement methods where recorded, and the source-publication title.
 
+## Associated manuscript
+
+This dataset supports the manuscript *Agricultural burdens emerge as crop
+climates depart from historical extremes*.
+
+Authors, in manuscript order:
+
+- Jinhui Zheng
+- Le Yu
+- Xinan Zhang
+- Matthew Tom Harrison
+- Pete Smith
+- Ke Liu
+- Min Kang
+- Hanyi Wu
+- Liujun Xiao
+
 ## Download and use
 
 Use [`data/GCOR_v1.0.csv`](data/GCOR_v1.0.csv) for analysis. It is UTF-8 encoded with a byte-order mark (BOM) for direct opening in spreadsheet software, uses one header row, and has one observation per row.
@@ -15,6 +32,9 @@ The `crop_label` field preserves the original record label, including capitaliza
 | Path | Purpose |
 | --- | --- |
 | `data/GCOR_v1.0.csv` | Canonical analysis-ready CSV release. |
+| `docs/codebook.md` | Field definitions, units, and missing-data conventions. |
+| `docs/processing.md` | Exact transformations used to produce the canonical CSV. |
+| `docs/release_checks.json` | Machine-readable release integrity checks. |
 | `scripts/build_release.py` | Rebuild script for the canonical CSV and checksums. |
 | `SHA256SUMS.txt` | SHA-256 integrity hashes for the data files. |
 
