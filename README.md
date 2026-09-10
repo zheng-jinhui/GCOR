@@ -15,9 +15,6 @@ The `crop_label` field preserves the original record label, including capitaliza
 | Path | Purpose |
 | --- | --- |
 | `data/GCOR_v1.0.csv` | Canonical analysis-ready CSV release. |
-| `docs/codebook.md` | Field definitions, units, and missing-data conventions. |
-| `docs/processing.md` | Exact transformations used to produce the canonical CSV. |
-| `docs/release_checks.json` | Machine-readable release integrity checks. |
 | `scripts/build_release.py` | Rebuild script for the canonical CSV and checksums. |
 | `SHA256SUMS.txt` | SHA-256 integrity hashes for the data files. |
 
